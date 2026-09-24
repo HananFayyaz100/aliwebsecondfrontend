@@ -1,11 +1,7 @@
 import axios from "axios";
 
-<<<<<<< HEAD
 const API_URL =
   (import.meta.env.VITE_API_URL || "http://localhost:5000/api") + "/projects";
-=======
-const API_URL = "https://aliiwebbackend1.vercel.app/";
->>>>>>> 02321d8cdd869fccb7cf3d208a559c05974d44e0
 
 export const getProjects = async () => {
   const response = await axios.get(API_URL);
@@ -38,7 +34,6 @@ export const updateProject = async (
     {
       headers: {
         Authorization: `Bearer ${token}`,
-        
       },
     }
   );
@@ -58,5 +53,3 @@ export const deleteProject = async (id, token) => {
 
   return response.data;
 };
-
-
