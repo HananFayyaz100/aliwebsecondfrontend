@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css';
-import first from './SecondHome/logoB.png';
+import first from '../SecondHome/logoB.png';
 import {Link} from 'react-scroll';
 function Footer() {
   return (
