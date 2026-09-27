@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Home2.css'
 import ali from './ali.jpeg';
-import icon from './logoA.png'
+import icon from './logoB.png'
 import { Link, Element } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
