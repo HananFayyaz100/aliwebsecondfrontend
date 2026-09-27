@@ -59,8 +59,8 @@ function Home2() {
                         </div>
                         <div className='fourth'>
                             <button><Link to='service'>Read more</Link></button>
-                            <button>   <a href="https://www.facebook.com/@ali.fayyaz. 163891"   target="_blank" rel="noopener noreferrer"><FontAwesomeIcon color='white' icon={faFacebook} size={20} /></a></button>
-                            <button><a href="https://www.instagram.com/myusername"   target="_blank" rel="noopener noreferrer"><FontAwesomeIcon color="white" icon={faInstagram} size='5px' /></a></button>
+                            <button>   <a href="https://www.facebook.com/profile.php?id=61576408175474"   target="_blank" rel="noopener noreferrer"><FontAwesomeIcon color='white' icon={faFacebook} size={20} /></a></button>
+                            <button><a href="https://www.instagram.com/alifayyaz0/?hl=en"   target="_blank" rel="noopener noreferrer"><FontAwesomeIcon color="white" icon={faInstagram} size='5px' /></a></button>
                             <button><a href="https://wa.me/923246233787?text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20services!"   target="_blank" rel="noopener noreferrer"><FontAwesomeIcon color="white" icon={faWhatsapp} size='10px' /></a></button>
                             
                             <button> <a href="/cv.pdf" download> <FontAwesomeIcon color="white" icon={faDownload} /> Download CV </a> </button>
